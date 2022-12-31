@@ -1,0 +1,137 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content= "with=device-width, initial-scale=1.0">
+    <title>Mama Mercy Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96eaae98c2.js" crossorigin="anonymous"></script>
+    <body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="Images/final logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#tents">SERVICES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Welcome to Mama Mercy Events</h1>
+        <p>We offer a variety of tents and sound systems for all your event needs. From small parties to large festivals, we have the equipment and expertise to make your event a success. Our team can handle everything from setup to tear down, so you can focus on enjoying your special day.</p>
+        <a href="contact.html" class = "visit-btn">Visit Us to know more</a>
+    </div>
+
+
+    </section>
+    <section class="tents" id="tents">
+        <h2>OUR TENTS</h2>
+        <p>We offer a variety of tents based on the needs of your occassion.</p>
+        <div class = "row">
+          <div class="tent-col">
+            <img src="Images/small.jpg" alt="Small Party Tent" width = "240px" height="160px"/>
+            <h3>Small Party Tent</h3>
+            <p>Our small party tent is perfect for intimate gatherings of up to 50 guests. It includes lighting and can be set up on any surface. </p>
+            <p><strong>Price:</strong> $100</p>
+          </div>
+          <div class="tent-col">
+            <img src="Images/medium.jpg" alt="Medium Event Tent"  width = "240px" height="160px"/>
+            <h3>Medium Event Tent</h3>
+            <p>Our medium event tent is suitable for events with up to 100 guests. It includes lighting and flooring and can be set up on grass or pavement. </p>
+            <p><strong>Price:</strong> $500</p>
+          </div>
+          <div class="tent-col">
+            <img src="Images/large.jpg" alt="Large Festival Tent" width = "240px" height="160px"/>
+            <h3>Large Festival Tent</h3>
+            <p>Our large festival tent is perfect for events with over 200 guests. It includes lighting, flooring, and sidewalls and can be set up on any surface. </p>
+            <p><strong>Price:</strong> $1,000</p>
+          </div>
+        </div>
+      </section>
+      <section class="sound">
+        <h2> SOUND SYSTEM</h2>
+        <p> Our team offers a quality sound system that soots the kind of vybe and style you want to dress up your event with. </p> 
+        <img src="" alt="Sound system" />
+      </section>
+      <section class="chairs">
+        <h2> CHAIRS</h2>
+        <p> All our tents are accompanied by free seats, and a variety of colors of different fabric, to style up the colors that suit your event  </p>    
+        <img src="Images/chairs.jpg" alt="Chairs" />
+           
+      </section>
+      <section class="testimonials">
+        <h2> Testimonials</h2>
+        <div class = "row">
+            <div class = "test-col">
+                <img src="">
+                <div>
+                    <p><em>I was really impressed with  Mama Jimmy's Event Tents and Sound Systems for my daughter's birthday party. The tent was exactly what we needed and the sound system was easy to use.</em></p>
+                    <h3>Bob Mwangemi</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+            </div>
+            <div class = "test-col">
+                <img src="">
+                <div>
+                    <p><em>We used Mama Jimmy's tents and sounds system for our company picnic and everything went smoothly. The tent was perfect and the sound system was top-notch.</em></p>
+                    <h3>Jane Mbula</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div
+        </div>
+            
+      </section>
+      <section class = "cta">
+        <h1>Feel free to reach us out and allow us to sparkle your event</h1>
+        <a href="contact.html" class="visit-btn">CONTACT US</a>
+    
+      </section>
+      <section class = "footer">
+        <h4>About Us</h4>
+          <p>Mama Mercy events where we specialize in providing high-quality tents and sound systems for events of all sizes. </p>  
+             <p>Founded in 2021, we have quickly become the go-to supplier for tents and sound systems in the region. We pride ourselves on offering top-notch customer service and the best equipment available.</p>
+              <p>Our team is made up of experienced professionals who are passionate about what they do. From sales to setup, we are dedicated to ensuring that our customers have the best possible experience.</p> 
+        <div class = "icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+<!--------Javascript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

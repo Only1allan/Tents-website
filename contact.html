@@ -1,0 +1,109 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <meta name ="viewport" content= "with=device-width, initial-scale=1.0">
+        <title>Mama Mercy Events</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/96eaae98c2.js" crossorigin="anonymous"></script>
+        <body>
+        <section class = "sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/final logo.png" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#tents">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+    
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+              </nav>
+              <h1>Contact us</h1>
+            </section>
+
+           <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.4326969082!2d36.745100196348815!3d-1.3021297422853872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11655c311541%3A0x9dd769ac1c10b897!2sNairobi%20County!5e0!3m2!1sen!2ske!4v1672428858550!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+           </section>
+           <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-house"></i>
+                            <span>
+                                <h5> Limuru Road, XYZ Towers</h5>
+                                <p>Gigiri, Nairobi, Kenya</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <span>
+                                <h5> 0788837373</h5>
+                                <p>Monday to Sunday, 10AM to 9PM</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>
+                                <h5> info@mamajimmy.com</h5>
+                                <p>Feel free to Email us your feedback</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form action="form-handler.php" method="post">    
+                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <input type="text" name="email" placeholder="Enter email address" required>
+                            <input type="text" name="subject"placeholder="Enter your subject" required>
+                            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                            <button type = "submit" class="hero-btn red-btn">Send Message</button>
+                        
+                        
+                        </form>
+                    </div>
+                </div>
+
+           </section>
+
+
+                
+       
+    
+          <section class = "footer">
+            <h4>About Us</h4>
+            <p>Mama Mercy events where we specialize in providing high-quality tents and sound systems for events of all sizes.  
+                Founded in 2021, we have quickly become the go-to supplier for tents and sound systems in the region. We pride ourselves on offering top-notch customer service and the best equipment available.
+                 Our team is made up of experienced professionals who are passionate about what they do. From sales to setup, we are dedicated to ensuring that our customers have the best possible experience.</p>
+            <div class = "icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+    
+            </div>
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--------Javascript for Toggle Menu------->
+        <script>
+    
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+                function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>

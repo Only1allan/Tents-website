@@ -1,0 +1,79 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <meta name ="viewport" content= "with=device-width, initial-scale=1.0">
+        <title>Mama Mercy Events</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/96eaae98c2.js" crossorigin="anonymous"></script>
+        <body>
+        <section class = "sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/final logo.png" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#tents">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+    
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+              </nav>
+              <h1>About us</h1>
+            </section>
+
+            <section class="about-us">
+                <div class = "about-col">
+                    <h1>Best and affordable tent supplier in Nairobi and Kiambu</h1>
+                    <p>Mama Mercy events where we specialize in providing high-quality tents and sound systems for events of all sizes.
+                    Founded in 2021, we have quickly become the go-to supplier for tents and sound systems in the region. We pride ourselves on offering top-notch customer service and the best equipment available.
+                     Our team is made up of experienced professionals who are passionate about what they do. From sales to setup, we are dedicated to ensuring that our customers have the best possible experience.</p>
+                    <a href="#tents" class="visit-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="Images/about us.jpeg" alt="">
+                </div>
+            </section>
+           
+
+
+                
+       
+    
+          <section class = "footer">
+            <h4>About Us</h4>
+            <p>Mama Mercy events where we specialize in providing high-quality tents and sound systems for events of all sizes.  
+            Founded in 2021, we have quickly become the go-to supplier for tents and sound systems in the region. We pride ourselves on offering top-notch customer service and the best equipment available.
+             Our team is made up of experienced professionals who are passionate about what they do. From sales to setup, we are dedicated to ensuring that our customers have the best possible experience.</p>
+            <div class = "icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+    
+            </div>
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--------Javascript for Toggle Menu------->
+        <script>
+    
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+                function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+    </html>
