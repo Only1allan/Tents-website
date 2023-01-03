@@ -262,11 +262,15 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
-.icons .fa{
-    color: #f44336;
+.icons {
+    /* color: #f44336;
     margin: 0 13px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 18px 0; */
+    display : flex;
+    justify-content : space-between;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 
 /*about us page*/
