@@ -1,1 +1,1 @@
-This is a fully repsonsive HTML CSS JSON and PHP website. 
+This is a fully responsive HTML CSS JS and PHP website. 
